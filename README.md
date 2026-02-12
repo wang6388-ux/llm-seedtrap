@@ -1,2 +1,25 @@
-OPENAI_API_KEY=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
-OPENAI_MODEL=gpt-4.1-2025-04-14
+# LLM Seed Trap Project (MVP)
+
+## Setup
+1. Create a virtual env
+   - Windows: python -m venv .venv
+   - Activate:
+     - PowerShell: .\.venv\Scripts\Activate.ps1
+
+2. Install deps
+   pip install -r requirements.txt
+
+3. Create .env
+   Copy .env.example -> .env and fill OPENAI_API_KEY.
+
+## Run
+1) Sample model outputs
+   python run_sampling.py
+
+2) Score + summarize
+   python score_results.py
+
+Outputs:
+- outputs/raw.jsonl
+- outputs/scores.csv
+- outputs/summary.json
