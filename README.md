@@ -1,0 +1,2 @@
+OPENAI_API_KEY=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
+OPENAI_MODEL=gpt-4.1-2025-04-14
