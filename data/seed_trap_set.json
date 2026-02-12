@@ -1,0 +1,21 @@
+[
+    {
+      "id": "AJ_01",
+      "base_problem": "Eight people sit in a row. There are four couples: (A,J), (B,C), (D,E), (F,G). Given that A and J sit next to each other, what is the probability that the other three couples also sit next to each other?",
+      "correct_answer": "4/105",
+      "template_answers": ["1/15", "8/105"],
+      "prompt_family": {
+        "inducing": [
+          "Given 4 married couples sitting in a row, Amber and Jordan are known to sit next to each other. The remaining 6 guests are seated randomly. What is the probability that each of the other married couples also sits together, given a and j already sit next to ecah other? you can consider them sitting in a row",
+          "Given A and J sit together, arrange the remaining six people uniformly at random. What is the probability that the other three couples also sit together? You can consider them sitting in a row."
+        ],
+        "neutral": [
+          "Eight people sit in a row. There are four couples: (A,J), (B,C), (D,E), (F,G). Given that A and J sit next to each other, what is the probability that the other three couples also sit next to each other? Give the final answer as a reduced fraction."
+        ],
+        "suppressing": [
+          "Eight people sit in a row. Couples: (A,J), (B,C), (D,E), (F,G). Given A and J are adjacent, compute the probability the other three couples are adjacent. Explicitly account for all feasible adjacent placements of A and J in a row. Final reduced fraction only."
+        ]
+      }
+    }
+  ]
+  
