@@ -4,7 +4,9 @@
 1. Create a virtual env
    - Windows: python -m venv .venv
    - Activate:
-     - PowerShell: .\.venv\Scripts\Activate.ps1
+     - ```powershell
+.\.venv\Scripts\Activate.ps1
+```
 
 2. Install deps
    pip install -r requirements.txt
